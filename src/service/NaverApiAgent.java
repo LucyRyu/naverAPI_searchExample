@@ -19,7 +19,7 @@ public class NaverApiAgent {
     public static String CLIENT_SECRET = "oIE89xguGC";//애플리케이션 클라이언트 시크릿값";
 
 
-    //todo: 2. 100개 검색결과의 bloggerName 출력
+    //todo: 1. 3번째 블로그 링크값 출력
     public static String searchAndReturnJsonLink(String keyword) {
         try {
             String text = URLEncoder.encode(keyword, "UTF-8");
